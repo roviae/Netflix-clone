@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #a0a0a0;
+}
+
+NetflixWrapper {
+    background-color: #a0a0a0;
+}
+
+/*hero section styles*/
+.NetflixHeroSection {
+    width: 100%;
+    height: 100%;
+}
+
+.NetflixHeroSection #NetflixBg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.HeroSectionContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.78);
+  }
+
+  /*main styles*/
+  .HeroSectionContent .HeroTopBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .HeroTopBar .logo {
+    color: #e50914;
+    font-size: 23px;
+    font-weight: 500;
+  }
+
+  .HeroTopBar .HeroSignIn span {
+    background-color:  #e50914;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .NetflixHeroText {
+    margin-top: 9%;
+    text-align: center;
+    color: white;
+  }
+
+  .NetflixHeroText h2 {
+    font-size: 3.8em;
+    font-weight: 600;
+  }
+
+  .NetflixHeroText h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+
+  .NetflixHeroText p {
+    margin-bottom: 1em;
+    font-weight: 300;
+    font-size: 1.3em;
+  }
+
+  .NetlixHeroForm form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .NetflixHeroFormDiv {
+    flex: 0.3;
+  }
+
+  
+.NetflixHeroFormButton {
+    flex: 0.1;
+  }
+  
+  .NetlixHeroForm .NetflixHeroFormDiv {
+    background-color: #fff;
+    padding: 10px 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .NetlixHeroForm .NetflixHeroFormDiv input {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  
+  .NetlixHeroForm .NetflixHeroFormButton {
+    background-color: #e50914;
+    color: #fff;
+    padding: 21px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.7em;
+    cursor: pointer;
+  }
+  
+  .NetflixSeparator {
+    background-color: #333333;
+    height: 8px;
+    margin-bottom: 2em;
+    position: relative;
+  }
